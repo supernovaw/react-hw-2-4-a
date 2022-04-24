@@ -1,0 +1,22 @@
+.UserProfilePreview {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 250px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.UserProfilePreview > div {
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  transition: 0.1s;
+  cursor: default;
+}
+
+.UserProfilePreview > div:last-of-type {
+  border: none;
+}
+
+.UserProfilePreview .user-name {
+  font-size: 22px;
+}

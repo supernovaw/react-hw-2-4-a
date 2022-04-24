@@ -1,0 +1,31 @@
+.UsersList {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 250px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.UsersList>div {
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  transition: 0.1s;
+  cursor: default;
+
+}
+
+.UsersList>div:last-of-type {
+  border: none;
+}
+
+.user>div {
+  transition: 0.1s;
+}
+
+.user:hover {
+  background-color: lightgrey;
+}
+
+.user:hover>div {
+  transform: translateX(10px);
+}
